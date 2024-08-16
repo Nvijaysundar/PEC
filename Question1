@@ -1,0 +1,12 @@
+You are building a small console-based application for a library. The library has three types of books available for rent: Fiction, Non-Fiction, and Magazine. The rent cost is based on the number of days a user wants to rent the book. The rent prices per day for each type of book are as follows:
+Fiction: $1.50 per day Non-Fiction: $2.00 per day Magazine: $1.00 per day
+Write a Java program that prompts the user to: Enter their name. Select the type of book they want to rent (Fiction, Non-Fiction, or Magazine). Enter the number of days they want to rent the book.
+Display the total rent cost based on the type of book and the number of days selected.
+The program must: Use methods to handle different tasks, such as displaying the menu, calculating the rent, and printing the final output. Use the Scanner class to capture user input. Ensure input validation by checking for invalid book types or negative days.
+
+Enter your name: Alice
+Select the type of book (1 - Fiction, 2 - Non-Fiction, 3 - Magazine): 2
+Enter the number of days you want to rent the book: 5
+
+Hello Alice, you have selected Non-Fiction for 5 days.
+Your total rent is: $10.00
