@@ -1,0 +1,30 @@
+
+public class Question1 {
+	public static void main(String[] args) {
+		String str = "RRRGGGBBBBRG";
+		
+		if(str.contains("RBG") || str.contains("RGB")
+		||str.contains("BGR") || str.contains("BRG")
+		||str.contains("GRB") || str.contains("GBR"))
+			System.out.println("b&w");
+		else
+			System.out.println("Color full");
+	}
+}
+-----------------------------------------------------------------------
+
+import java.util.Scanner;
+
+public class Question2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.nextLine().toLowerCase().trim();
+		str = str.replaceAll("[qwertyuiopasdfghjklzxcvbnm]","");
+		
+		if(str.isEmpty())
+			System.out.println("Invalid species");
+		else
+			System.out.println(str.toString());
+	}
+}
