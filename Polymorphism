@@ -1,0 +1,24 @@
+Question 1:
+1-Design a class Circle having radius(type float) as a instance variable and make
+following member methods
+a) Zero argument and parameterized constructors
+b) Override String toString() method return radius of Circle object
+c) Override boolean equals(Object object) method to check that two circle
+object are same or not.
+d) Write method that will return area of Circle(no argument)
+e) Write method that will take one Circle object as argument and return its area.
+
+Question2:
+2- Design a class Point with two double x and y as instance variable such that object of
+this class will represent a point of coordinate system and make following member
+methods.
+a) Zero argument and parameterized constructors
+b) Write a method that will take one Point as argument and print its quadrant or lies on
+X-axis or Y-axis or origin
+c) Write a method that will take two Point as a argument and return center point of
+these points
+d) Write a method that will take two Point as a argument and return distance between
+these points
+e) Write a method that will take three Point as a argument and return 1 if they are in
+straight line otherwise return 0
+f) Override String toString() to return values of Point
