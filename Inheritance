@@ -1,0 +1,22 @@
+You are tasked with designing a simple banking application for a small community bank. The bank offers two types of accounts: SavingsAccount and CheckingAccount. Both account types share common properties but have different behaviors in terms of how they handle transactions.
+The bank has decided to implement these accounts in Java, and your job is to create a class hierarchy that reflects the structure of these accounts. You need to adhere to the following requirements:
+Requirements:
+Account Class:
+Create a base class called Account that represents a general bank account.
+The Account class should have the following fields:
+accountNumber: A string that uniquely identifies the account.
+balance: A double that represents the current balance of the account.
+accountHolderName: A string that represents the name of the account holder.
+The Account class should have a constructor to initialize these fields.
+The Account class should also include a method deposit(double amount) that adds the specified amount to the balance.
+SavingsAccount Class:
+Create a class SavingsAccount that inherits from the Account class.
+The SavingsAccount class should have an additional field interestRate (a double) that represents the interest rate for the savings account.
+The SavingsAccount class should have a constructor that initializes all the fields, including those inherited from the Account class.
+Add a method addInterest() that adds interest to the balance based on the interestRate.
+CheckingAccount Class:
+Create a class CheckingAccount that inherits from the Account class.
+The CheckingAccount class should have an additional field overdraftLimit (a double) that represents the maximum amount the account can be overdrawn.
+The CheckingAccount class should have a constructor that initializes all the fields, including those inherited from the Account class.
+Add a method withdraw(double amount) that allows the account holder to withdraw money. This method should only allow withdrawals that do not exceed the overdraftLimit.
+
